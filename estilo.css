@@ -1,0 +1,86 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0%;
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5em;
+}
+
+#titulo {
+  font-size: 2.1rem;
+  font-family: "Rubik Dirt", cursive;
+  color: #000000;
+  margin: 0px;
+  padding: 20px;
+}
+
+#titulo:hover {
+  font-size: 2.2rem;
+  font-family: "Rubik Dirt", cursive;
+  color: #000000;
+  transform: scale(1.1) rotate(0deg);
+  transition: all 0.5s;
+}
+
+video {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  min-height: 240px;
+  max-width: 95%;
+}
+
+.contenedor {
+  background-color: #e6e6e6;
+  min-height: 450px;
+  width: 100%;
+  text-align: center;
+  margin: 0%;
+}
+
+.contenedor-video {
+  background-color: #e6e6e6;
+  min-height: 350px;
+  width: 100%;
+  text-align: center;
+  margin: 0%;
+}
+
+.imagen {
+  width: 40%;
+  min-width: 300px;
+  margin: 20px;
+  border-radius: 10px;
+  border: 2px solid #091431;
+  box-shadow: 5px 5px 25px #091431;
+}
+
+.imagen:hover {
+  filter: none;
+  transform: scale(1.1) rotate(0deg);
+  transition: all 0.5s;
+}
+
+.contenedor p {
+  font-size: 1.5rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #dedee1;
+  padding: 25px;
+}
+
+.contenedor p:hover {
+  font-size: 1.6rem;
+  color: #dedee1;
+  transform: scale(1.05) rotate(0deg);
+  transition: all 0.5s;
+}
+
+.descripcion {
+  font-size: 1.5rem;
+  color: #ffffff;
+  padding: 20px;
+  background-color: #000000;
+}
